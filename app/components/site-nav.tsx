@@ -14,7 +14,7 @@ export default function SiteNav() {
         KALIM<span>®</span>
       </a>
 
-      <div className="nav-links">
+      <div className="nav-links" aria-label="Main navigation">
         {links.map((link) => (
           <a href={link.href} key={link.href}>
             {link.label}
